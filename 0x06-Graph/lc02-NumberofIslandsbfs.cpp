@@ -11,7 +11,7 @@ private:
             int c = q.front().second;
             q.pop();
 
-            vector<pair<int, int>> directions{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+            vector<pair<int, int>> directions{{-1, 0}, {1, 0}, {0, -1}, {0, 1}. {1, 1}};
 
             for (const auto& dir : directions) {
                 int newRow = r + dir.first;
